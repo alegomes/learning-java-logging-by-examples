@@ -18,7 +18,6 @@ public class LoggingBenchmark {
 		 */
 		long[][][] benchmarks = new long[6][3][4];
 		
-		// Run it 3 times and get the average
 		for (int i = 0; i < 6; i++) {
 			benchmarks[i] = benchmark();
 		}
